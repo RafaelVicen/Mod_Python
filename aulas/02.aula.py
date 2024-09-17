@@ -11,3 +11,4 @@ print("Ola meu nome eh \n Rafael Vicente")# O caracter de escape ou ( barra inve
 #no exemplo de baixo a variavel nome recebeu (carol)
 nome = 'carol'
 print (len(nome))# Aqui contamos a funcao len, ele conta quantos caracteres tem o nome de cima, len serve pra contar o numero de caracteres.
+

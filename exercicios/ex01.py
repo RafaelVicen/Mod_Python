@@ -8,5 +8,5 @@
 
 """
 print('vamos Codar')
-print("vamos'codar'")
-print('vamos \n"Codar"')
+print("vamos'codar'") #Na segunda linha incluimos aspas duplas dentro de uma string com aspas simples
+print('vamos \n"Codar"') #Na terceira linha incluimos aspas simples dentro de uma string com aspas duplas
