@@ -9,3 +9,9 @@ print(biblioteca.index('o'))
 #imprima apenas 'De Aplicacoes'
 aplicacoes = 'Desenvolvimento De Aplicacoes'
 print(aplicacoes[-13:])
+
+#Ou podemos fazer de outra forma que eh
+
+indice_d = aplicacoes.rindex('D') # Aqui encontramos o indice da letra D
+indice_s = aplicacoes.rindex("s")# Aqui encontramos o indice da letra s
+print(aplicacoes[indice_d:indice_s+1])# Aqui coloquei o mais 1 para que ele acesse o ultimo indice, para pegar a palavra inteira
