@@ -1,15 +1,15 @@
 #Havera situacoes que eu terei que separar uma string em varias partes, como em caso se eu quiser separar uma frase em palavras.
+# Usamos o
 
 frase = 'Ola, bem-vindo a este treinamento'
 print("----------------------------------------------\n")
-print(frase.split())# Quando uso o metodo split ele por padrao, vai encontrar todos os pacosdentro de uma string e vai separar isso em uma lista.
+print(frase.split( ))# Quando uso o metodo split ele por padrao, vai encontrar todos os pacosdentro de uma string e vai separar isso em uma lista.
 print(frase.split(',')) #Aqui a todo moment que ele encontrar uma virgula, ele vai separar aquela frase, 'Ola, bem', 'vindo a este treinamento'
 print(frase.split('-'))# Aqui ele vai encontrar o caracter de traço (-) e vai separar o  (bem-vindo) ficando 'Ola, bem', 'vindo a este treinamento'
 
-
 print("----------------------------------------------\n")
 nome = 'Flavio, Rafael, Carol, Amanda,Guterres'
-print(nome.split())#aqui ele busca os passos em brancos e separa as informacoes, lembrando que o separador espacos nao eh um separador de virgulas
+print(nome.split())#aqui ele busca os espacos em brancos e separa as informacoes, lembrando que o separador espacos nao eh um separador de virgulas
 print(nome.split(','))#aqui ele separa todas as ocorrencias com virgulas
 
 
